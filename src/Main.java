@@ -7,14 +7,14 @@ public class Main {
 		System.out.print("Hello world!");
 		System.out.println();
 		
-		// This is a comment
+		int x; //declaration
 		
-		/*
-		 * This
-		 * is
-		 * a
-		 * comment
-		 */
+		x = 123; //assignment
+		
+		int y = 456; //initialization
+		
+		System.out.println(x);
+		System.out.print(y);
 
 	}
 
