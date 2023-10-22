@@ -3,18 +3,21 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello mom!");
-		System.out.print("Hello world!");
-		System.out.println();
+		int x = 123;
 		
-		int x; //declaration
+		double y = 4.56;
 		
-		x = 123; //assignment
+		boolean z = true;
 		
-		int y = 456; //initialization
+		char symbol = '@';
+		
+		String name = "Marcos";
 		
 		System.out.println(x);
-		System.out.print("My number is: " + y);
+		System.out.println("My number is: " + y);
+		System.out.println(z);
+		System.out.println("My symbol is: " + symbol);
+		System.out.println("Hello " + name);
 
 	}
 
