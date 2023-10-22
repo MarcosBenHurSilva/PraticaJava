@@ -14,7 +14,7 @@ public class Main {
 		int y = 456; //initialization
 		
 		System.out.println(x);
-		System.out.print(y);
+		System.out.print("My number is: " + y);
 
 	}
 
